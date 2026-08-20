@@ -141,3 +141,4 @@ $RECYCLE.BIN/
 
 # Ignore any .gitignore files that are not this one? Actually we need .gitignore itself.
 
+*.pth
