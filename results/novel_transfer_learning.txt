@@ -1,0 +1,29 @@
+=== Novel Methodological Contribution ===
+Uncertainty-Guided Transfer Learning for Breath Analysis
+
+Number of samples: 1214
+Number of subjects: 19
+
+=== Novel Approach: Uncertainty-Guided Transfer Learning ===
+R²: 0.5818
+ECE: 0.0506
+90% Prediction Interval Coverage: 0.9498
+
+=== Standard Leave-One-Subject-Out (Baseline) ===
+R²: 0.5919
+ECE: 0.0773
+90% Prediction Interval Coverage: 0.9168
+
+=== Improvement (Novel - Standard) ===
+Delta R²: -0.0101
+Delta ECE: 0.0267
+Delta Coverage: 0.0329
+
+=== Approach Description ===
+1. For each test subject, created separate features per subject to avoid leakage
+2. Trained a separate Bayesian Ridge model on each training subject's data
+3. For each test sample, computed similarity to each training subject's feature space
+4. Weighted predictions by similarity and reliability (inverse uncertainty)
+5. Made final prediction as uncertainty-weighted combination of subject-level predictions
+6. This reduces inter-subject variability by adapting to subject-specific characteristics
+   while leveraging population knowledge through uncertainty-guided weighting

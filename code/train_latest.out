@@ -1,0 +1,190 @@
+C:\Users\priti\anaconda3\lib\site-packages\pandas\core\arrays\masked.py:61: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.5' currently installed).
+  from pandas.core import (
+C:\Users\priti\anaconda3\lib\site-packages\torch\nn\modules\transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+C:\Users\priti\OneDrive\Desktop\capstone\research_paper\code\hbki.py:188: UserWarning: SHAP not available, skipping feature selection
+  warnings.warn("SHAP not available, skipping feature selection")
+C:\Users\priti\anaconda3\lib\site-packages\sklearn\metrics\_ranking.py:424: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+C:\Users\priti\anaconda3\lib\site-packages\sklearn\metrics\_ranking.py:1192: UndefinedMetricWarning: No negative samples in y_true, false positive value should be meaningless
+  warnings.warn(
+C:\Users\priti\anaconda3\lib\site-packages\torch\nn\modules\transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+Loading existing simulated dataset...
+Using scale factor 33.94 ppm per mM beta-HB
+Dataset splits: train=5019, val=1075, test=1076
+Target means: [14.35509741  0.29991498  0.25361951  0.12662317  0.02574818]
+Target stds: [16.20408341  0.09712902  0.29818174  0.15640592  0.03371786]
+Using device: cpu
+Epoch 001 | Train Loss: 12788.08892 | Val Loss: 11189.41165
+  Debug shapes: xbtorch.Size([51, 30, 10]), ybtorch.Size([51, 5]), meantorch.Size([51, 5]), logvartorch.Size([51, 5])
+  Debug xb[0, -1, :] (last timestep of first sample): [ 0.          0.35017446  0.          0.          0.         29.097506
+  0.03896327  0.37014762 24.692461    0.9589616 ]
+  Debug yb[0, :] (first sample target): [4.1931026e-02 2.3637196e-01 6.4642396e-04 3.7144762e-04 2.9454028e-05]
+  Debug mean[0, :]: [ 1.1576772 -1.3058225  0.8443139  0.6874773 -2.126292 ]
+  Debug logvar[0, :]: [-4.848888  -4.9560175 -4.5514812 -2.9126801 -6.279027 ]
+  Debug var[0, :]: [0.00783709 0.00704091 0.01055156 0.05432992 0.00187522]
+Epoch 002 | Train Loss: 3365.99280 | Val Loss: 2821.09329
+Epoch 003 | Train Loss: 1016.34994 | Val Loss: 852.18097
+Epoch 004 | Train Loss: 350.94529 | Val Loss: 295.74020
+Epoch 005 | Train Loss: 133.28068 | Val Loss: 113.44645
+Epoch 006 | Train Loss: 56.98228 | Val Loss: 47.75429
+Epoch 007 | Train Loss: 27.26606 | Val Loss: 21.32190
+Epoch 008 | Train Loss: 13.82955 | Val Loss: 10.27427
+Epoch 009 | Train Loss: 7.56872 | Val Loss: 5.28032
+Epoch 010 | Train Loss: 4.42760 | Val Loss: 2.93634
+Epoch 011 | Train Loss: 2.63880 | Val Loss: 1.65371
+Epoch 012 | Train Loss: 1.68688 | Val Loss: 0.95816
+Epoch 013 | Train Loss: 1.17796 | Val Loss: 0.58914
+Epoch 014 | Train Loss: 0.83152 | Val Loss: 0.37643
+Epoch 015 | Train Loss: 0.70812 | Val Loss: 0.27483
+Epoch 016 | Train Loss: 0.57444 | Val Loss: 0.21320
+Epoch 017 | Train Loss: 0.50496 | Val Loss: 0.15332
+Epoch 018 | Train Loss: 0.45271 | Val Loss: 0.12220
+Epoch 019 | Train Loss: 0.41393 | Val Loss: 0.08288
+Epoch 020 | Train Loss: 0.36450 | Val Loss: 0.03907
+Epoch 021 | Train Loss: 0.32809 | Val Loss: -0.00961
+Epoch 022 | Train Loss: 0.30461 | Val Loss: -0.06254
+Epoch 023 | Train Loss: 0.25070 | Val Loss: -0.12320
+Epoch 024 | Train Loss: 0.22251 | Val Loss: -0.13945
+Epoch 025 | Train Loss: 0.17715 | Val Loss: -0.14768
+Epoch 026 | Train Loss: 0.15143 | Val Loss: -0.17757
+Epoch 027 | Train Loss: 0.12674 | Val Loss: -0.19222
+Epoch 028 | Train Loss: 0.12763 | Val Loss: -0.20686
+Epoch 029 | Train Loss: 0.08327 | Val Loss: -0.21659
+Epoch 030 | Train Loss: 0.06471 | Val Loss: -0.20356
+Epoch 031 | Train Loss: 0.04366 | Val Loss: -0.21141
+Epoch 032 | Train Loss: 0.00102 | Val Loss: -0.23933
+Epoch 033 | Train Loss: -0.01670 | Val Loss: -0.28643
+Epoch 034 | Train Loss: -0.03220 | Val Loss: -0.32072
+Epoch 035 | Train Loss: -0.05024 | Val Loss: -0.31100
+Epoch 036 | Train Loss: -0.05802 | Val Loss: -0.34359
+Epoch 037 | Train Loss: -0.09152 | Val Loss: -0.37975
+Epoch 038 | Train Loss: -0.09490 | Val Loss: -0.39092
+Epoch 039 | Train Loss: -0.12461 | Val Loss: -0.42445
+Epoch 040 | Train Loss: -0.13245 | Val Loss: -0.40711
+Epoch 041 | Train Loss: -0.15167 | Val Loss: -0.45545
+Epoch 042 | Train Loss: -0.16696 | Val Loss: -0.44525
+Epoch 043 | Train Loss: -0.21110 | Val Loss: -0.47045
+Epoch 044 | Train Loss: -0.21676 | Val Loss: -0.41779
+Epoch 045 | Train Loss: -0.22185 | Val Loss: -0.49613
+Epoch 046 | Train Loss: -0.23502 | Val Loss: -0.50938
+Epoch 047 | Train Loss: -0.23743 | Val Loss: -0.50485
+Epoch 048 | Train Loss: -0.26630 | Val Loss: -0.52697
+Epoch 049 | Train Loss: -0.27675 | Val Loss: -0.58457
+Epoch 050 | Train Loss: -0.29538 | Val Loss: -0.56414
+Epoch 051 | Train Loss: -0.30329 | Val Loss: -0.57462
+Epoch 052 | Train Loss: -0.32750 | Val Loss: -0.57923
+Epoch 053 | Train Loss: -0.32770 | Val Loss: -0.58682
+Epoch 054 | Train Loss: -0.34143 | Val Loss: -0.61640
+Epoch 055 | Train Loss: -0.35073 | Val Loss: -0.60716
+Epoch 056 | Train Loss: -0.36317 | Val Loss: -0.61056
+Epoch 057 | Train Loss: -0.38202 | Val Loss: -0.60529
+Epoch 058 | Train Loss: -0.39432 | Val Loss: -0.58176
+Epoch 059 | Train Loss: -0.41410 | Val Loss: -0.61885
+Epoch 060 | Train Loss: -0.42343 | Val Loss: -0.56492
+Epoch 061 | Train Loss: -0.42854 | Val Loss: -0.68240
+Epoch 062 | Train Loss: -0.44758 | Val Loss: -0.64554
+Epoch 063 | Train Loss: -0.46526 | Val Loss: -0.69641
+Epoch 064 | Train Loss: -0.48487 | Val Loss: -0.64986
+Epoch 065 | Train Loss: -0.49224 | Val Loss: -0.63875
+Epoch 066 | Train Loss: -0.48967 | Val Loss: -0.75154
+Epoch 067 | Train Loss: -0.49664 | Val Loss: -0.72908
+Epoch 068 | Train Loss: -0.51660 | Val Loss: -0.73322
+Epoch 069 | Train Loss: -0.52923 | Val Loss: -0.71987
+Epoch 070 | Train Loss: -0.55468 | Val Loss: -0.72928
+Epoch 071 | Train Loss: -0.55852 | Val Loss: -0.83151
+Epoch 072 | Train Loss: -0.55571 | Val Loss: -0.70765
+Epoch 073 | Train Loss: -0.58360 | Val Loss: -0.71804
+Epoch 074 | Train Loss: -0.59583 | Val Loss: -0.78892
+Epoch 075 | Train Loss: -0.59647 | Val Loss: -0.76615
+Epoch 076 | Train Loss: -0.61216 | Val Loss: -0.80824
+Epoch 077 | Train Loss: -0.61381 | Val Loss: -0.80539
+Epoch 078 | Train Loss: -0.62594 | Val Loss: -0.77158
+Epoch 079 | Train Loss: -0.63367 | Val Loss: -0.83746
+Epoch 080 | Train Loss: -0.64147 | Val Loss: -0.81481
+Epoch 081 | Train Loss: -0.64366 | Val Loss: -0.84151
+Epoch 082 | Train Loss: -0.66527 | Val Loss: -0.84758
+Epoch 083 | Train Loss: -0.67514 | Val Loss: -0.84091
+Epoch 084 | Train Loss: -0.67441 | Val Loss: -0.88749
+Epoch 085 | Train Loss: -0.70762 | Val Loss: -0.79490
+Epoch 086 | Train Loss: -0.71103 | Val Loss: -0.81925
+Epoch 087 | Train Loss: -0.71224 | Val Loss: -0.87005
+Epoch 088 | Train Loss: -0.71552 | Val Loss: -0.85755
+Epoch 089 | Train Loss: -0.73528 | Val Loss: -0.82222
+Epoch 090 | Train Loss: -0.74043 | Val Loss: -0.85725
+Epoch 091 | Train Loss: -0.75629 | Val Loss: -0.84498
+Epoch 092 | Train Loss: -0.77592 | Val Loss: -0.84602
+Epoch 093 | Train Loss: -0.77361 | Val Loss: -0.84787
+Epoch 094 | Train Loss: -0.78204 | Val Loss: -0.93090
+Epoch 095 | Train Loss: -0.78890 | Val Loss: -0.89458
+Epoch 096 | Train Loss: -0.81065 | Val Loss: -0.87630
+Epoch 097 | Train Loss: -0.81658 | Val Loss: -0.93579
+Epoch 098 | Train Loss: -0.80377 | Val Loss: -0.88539
+Epoch 099 | Train Loss: -0.83563 | Val Loss: -0.88596
+Epoch 100 | Train Loss: -0.82689 | Val Loss: -0.95583
+
+=== UAFT (acetone) ===
+R2 vs. true acetone:          -0.865
+Expected Calibration Error (ECE): 0.468
+90% prediction interval coverage: 0.531
+R2 (acetone mean vs. scaled beta-HB): -64859.982
+
+Training HBKI (Adaptive Bayesian Ridge regression)...
+Selected 19 features out of 19 using SHAP-guided selection
+Selected features: ['acetone_mean', 'ammonia_mean', 'methane_mean', 'h2_mean', 'h2s_mean', 'acetone_std', 'ammonia_std', 'methane_std', 'h2_std', 'h2s_std', 'flow_Lpm', 'co2_pct', 'humidity', 'temperature', 'signal_stability', 'ethanol_ppm', 'breath_pH', 'voc_ppm', 'quality_factor']
+
+Learned feature weights:
+  acetone_mean: 0.0404
+  ammonia_mean: 0.0211
+  methane_mean: 0.0701
+  h2_mean: 0.0057
+  h2s_mean: 0.0118
+  acetone_std: 0.2870
+  ammonia_std: 0.0014
+  methane_std: 0.0005
+  h2_std: 0.0033
+  h2s_std: 0.0025
+  flow_Lpm: 0.2812
+  co2_pct: 0.0171
+  humidity: 0.0075
+  temperature: 0.1820
+  signal_stability: 0.0073
+  ethanol_ppm: 0.0146
+  breath_pH: 0.0175
+  voc_ppm: 0.0093
+  quality_factor: 0.0197
+
+=== HBKI ===
+R2 vs. ketosis score (0-100):    0.049
+Expected Calibration Error (ECE): 0.100
+90% credible interval coverage: 1.000
+AUC for beta-HB > 0.5 mM detection: nan
+Optimal ketosis threshold:       inf
+Sensitivity:                     0.000
+Specificity:                     0.000
+
+Running ablation studies...
+Running ablation: Deterministic UAFT (no uncertainty)
+Traceback (most recent call last):
+  File "C:\Users\priti\OneDrive\Desktop\capstone\research_paper\code\train.py", line 422, in <module>
+    optimizer_det = torch.optim.SGD(model_det.parameters(), lr=0.001)
+  File "C:\Users\priti\anaconda3\lib\site-packages\torch\optim\sgd.py", line 27, in __init__
+    super().__init__(params, defaults)
+  File "C:\Users\priti\anaconda3\lib\site-packages\torch\optim\optimizer.py", line 284, in __init__
+    self.add_param_group(cast(dict, param_group))
+  File "C:\Users\priti\anaconda3\lib\site-packages\torch\_compile.py", line 22, in inner
+    import torch._dynamo
+  File "C:\Users\priti\anaconda3\lib\site-packages\torch\_dynamo\__init__.py", line 2, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "C:\Users\priti\anaconda3\lib\site-packages\torch\_dynamo\convert_frame.py", line 40, in <module>
+    from . import config, exc, trace_rules
+  File "C:\Users\priti\anaconda3\lib\site-packages\torch\_dynamo\trace_rules.py", line 50, in <module>
+    from .variables import (
+  File "C:\Users\priti\anaconda3\lib\site-packages\torch\_dynamo\variables\__init__.py", line 34, in <module>
+    from .higher_order_ops import (
+  File "C:\Users\priti\anaconda3\lib\site-packages\torch\_dynamo\variables\higher_order_ops.py", line 13, in <module>
+    import torch.onnx.operators
+  File "C:\Users\priti\anaconda3\lib\site-packages\torch\onnx\__init__.py", line 46, in <module>
+    from ._internal.exporter import (  # usort:skip. needs to be last to avoid circular import
+ImportError: cannot import name 'DiagnosticOptions' from 'torch.onnx._internal.exporter' (C:\Users\priti\anaconda3\lib\site-packages\torch\onnx\_internal\exporter\__init__.py)

@@ -1,0 +1,143 @@
+# Ignore the pip log file
+=0.12
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+*.pyw
+*.rej
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Conda
+.conda/
+
+# Logs
+*.log
+# But keep training_output.log? We'll comment out for now
+# training_output.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Package files
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env.ini
+tox.ini
+
+# node_modules
+node_modules/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.cproject
+
+# Mac resource fork
+._*
+
+# Maven
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.cproject
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nblib/
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.desktop
+Desktop.ini
+
+# Folder view configuration
+Desktop.ini
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# macOS Finder
+.DS_Store
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories created by refurbish operations
+._*
+
+# Ignore any .git directories that might be nested
+.git/
+
+# Ignore any .gitignore files that are not this one? Actually we need .gitignore itself.
+

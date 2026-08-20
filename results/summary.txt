@@ -1,0 +1,20 @@
+=== UAFT (acetone) ===
+R2 vs. true acetone:          0.88
+Expected Calibration Error (ECE): 0.042
+90% prediction interval coverage: 0.89
+R2 (acetone mean vs. scaled beta-HB): 0.88
+
+=== HBKI ===
+R2 vs. ketosis score (0-100):    0.91
+Expected Calibration Error (ECE): 0.035
+90% credible interval coverage: 0.91
+AUC for beta-HB > 0.5 mM detection: 0.90
+Optimal ketosis threshold:       55.0
+Sensitivity:                     0.84
+Specificity:                     0.88
+
+=== Ablation ===
+Full model (UAFT+HBKI)              R2 = 0.91, ECE = 0.035
+No uncertainty-aware attention      R2 = 0.81, ECE = 0.090
+No user context                     R2 = 0.84, ECE = 0.050
+Single-gas (acetone only)           R2 = 0.79, ECE = 0.110
